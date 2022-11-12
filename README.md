@@ -8,14 +8,15 @@ Python 3.7.9
 
 ## Dependencies
 
-- [FFMPEG](https://ffmpeg.org/download.html)
+- [Installation du module FFMPEG](https://www.gyan.dev/ffmpeg/builds/ffmpeg-git-essentials.7z)
 
 ##
 
-## Requirements
+## Requis pour utilisation de l'application
 
-- Create & copy your desired .mkv videos to the `assets` folder
-- Run `python main.py`
-- MP4 videos can be found in `result` folder
+- Afin de pouvoir utiliser cette application Python, il faut ajouter FFMPEG dans les variables d'environnement path du cadre de la partie supérieure
+- Créer un dossier assets dans lequel seront stockées vos vidéos de départ. 
+- Ensuite lancez l'application avec `python main.py`
+- Les vidéos qui ont été converties en MP4 pourront être retrouvées dans un dossier nommé result que le code aura généré
 
 ##
